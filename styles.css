@@ -1,0 +1,184 @@
+.mainDiv{
+    font-family:verdana;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+.topNav{
+    padding: 30px;
+    font-size: 25px;
+    color: rgba(70,207,190,255);
+}
+.content{
+    padding: 25px;
+    margin-top: 8%;
+}
+.content1{
+    font-size: 40px; margin : 20px; 
+}
+.content2{
+    font-size: 25px; margin : 0; 
+    padding-top:2px;
+}
+.footer{
+    padding: 30px;
+    width: auto;
+    background: rgba(49,210,202,255);
+    padding-top: 35px;
+}
+
+.column{
+    float: left;
+    width: 24%;
+    font-size: 12px;
+    
+
+  
+}
+.column1 {
+    width: 40%;
+    float: left;
+    padding: 10px;
+  
+  }
+.column2 {
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+}
+
+.column3 {
+    float: left;
+    width: 30%;
+    color: aliceblue;
+
+  }
+
+
+.row:after {
+        content: "";
+        display: flex;
+        clear: both;
+        align-items: center;
+
+      }
+.row{
+    display: block;
+    align-items: center;
+}
+.columnFormat{
+    font-size: 15px;
+    text-align: left;  
+    line-height: 1.5;
+    color: white;
+}
+
+.subBtn{
+    background: rgba(49,227,202,255);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px 14px 20px;
+    text-decoration: none;
+    border: none;
+  }
+  
+.subBtn:hover {
+    background: rgba(10,207,170,255);
+    text-decoration: none;
+  }
+
+.botNav{
+    background: rgb(28, 71, 78);
+    height: 40px;
+    width: 100%;
+}
+
+.unsubscribe{
+    color: black;
+    background: rgba(49,210,202,255);
+    padding-top: 6%; padding-bottom: 5%;
+    font-size: 12px;
+    
+}
+
+/*---Media Query-----*/
+
+/*--Ipad Size--*/
+@media only screen 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .mainDiv{
+        font-family:verdana;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+
+}
+
+/*--Phone Size--*/
+@media only screen 
+  and (max-device-width: 700px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .mainDiv{
+        font-family:verdana;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .column1 {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        float: left;
+
+      
+      }
+    .column2 {
+        width: 100%;
+        margin: 0;
+        float: left;
+
+    }
+
+    .column3-1 {
+        width: 100%;
+        padding-top: 50px;
+        color: white;
+    }
+    .links{
+        display: none;
+    }
+    
+      
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+.unsubscribe{
+    color: black;
+    background: rgba(49,210,202,255);
+    padding-top: 6%; padding-bottom: 5%;
+    font-size: 12px;    
+}
+.columnFormat{
+    font-size: 25px;
+    text-align: left;  
+    line-height: 1.5;
+    color: white;
+
+}
+}
+
